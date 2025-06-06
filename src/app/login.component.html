@@ -12,7 +12,7 @@
     <label>Password</label>
     <input type="password" formControlName="password" />
     <div *ngIf="submitted && loginForm.controls.password.errors">
-      <small *ngIf="loginForm.controls.password.errors.required">Password is required.</small>
+      <small *ngIf="loginForm.controls.password.errors.required">Password is mandatory.</small>
     </div>
   </div>
   <button type="submit">Login</button>
